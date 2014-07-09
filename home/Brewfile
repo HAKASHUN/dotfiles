@@ -38,35 +38,26 @@ install imagemagick || true
 
 # Casks
 install brew-cask
-cask install google-chrome || true
-cask install google-japanese-ime || true
-cask install iterm2        || true
-cask install dropbox       || true
-cask install hipchat       || true
-cask install alfred        || true
-cask install sourcetree    || true
-cask install evernote      || true
-cask install kobito        || true
-cask install sublime-text  || true
-cask install virtualbox    || true
-cask install vagrant       || true
-cask install slate         || true
-cask install cyberduck     || true
 cask install adobe-creative-cloud || true
-cask install clipmenu      || true
-cask install totalspaces || true
-cask install totalfinder || true
+cask install alfred               || true
+cask install chromecast           || true
+cask install dash                 || true
+cask install dropbox              || true
+cask install google-chrome        || true
+cask install google-japanese-ime  || true
+cask install hipchat              || true
+cask install iterm2               || true
+cask install keyremap4macbook     || true
+cask install marsedit             || true
+cask install skitch               || true
+cask install skype                || true
+cask install sourcetree           || true
+cask install sublime-text         || true
+cask install tunnelblick          || true
+cask install vagrant              || true
+cask install virtualbox           || true
 
-#quicklook plugin
-cask install qlcolorcode  || true
-cask install qlstephen    || true
-cask install qlmarkdown   || true
-cask install quicklook-json   || true
-cask install qlprettypatch  || true
-cask install quicklook-csv  || true
-cask install betterzipql    || true
-cask install webp-quicklook || true
-cask install suspicious-package || true
+
 
 # Remove outdated versions
 cleanup
