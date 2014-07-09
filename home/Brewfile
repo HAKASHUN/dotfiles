@@ -32,9 +32,11 @@ install tmux      || true
 install markdown  || true
 install nkf       || true
 install ag        || true
+install python    || true
 
 ## Image
-install imagemagick || true
+install imagemagick    || true
+install graphicsmagick || true
 
 # Casks
 install brew-cask
@@ -56,8 +58,6 @@ cask install sublime-text         || true
 cask install tunnelblick          || true
 cask install vagrant              || true
 cask install virtualbox           || true
-
-
 
 # Remove outdated versions
 cleanup
