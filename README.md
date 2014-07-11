@@ -14,6 +14,9 @@ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 - システム環境設定 => dockより選択
 - 自動で消えるように設定
 
+## Fnキーを標準のファンクションキーとして使用
+- システム環境設定を変更
+
 ## .で始まるファイルを可視化する
 ```
 defaults write com.apple.finder AppleShowAllFiles -boolean true
